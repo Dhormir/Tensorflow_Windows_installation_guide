@@ -149,11 +149,11 @@ Windows Explorer señalará que estas carpetas ya existen, por lo cual debemos e
 
 Para el funcionamiento correcto de CUDA con TensorFlow necesitamos añadir acceso a esta carpeta mediante las variables de ambiente. En la dirección `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2`, hay una carpeta denominada `bin`, ingrese a esta, copie y guarde la dirección:
 
-Imagen
+![Path bin](/images/bin_path.png "Path bin")
 
 Ahora en `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2` ingrese a `libnvvp`, copie y guarde la dirección:
 
-Imagen
+![Path libnvvp](/images/libnvvp_path.png "Path libnvvp")
 
 Ingrese a Windows y escriba "environment variables":
 
