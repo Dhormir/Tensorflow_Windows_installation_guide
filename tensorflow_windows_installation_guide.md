@@ -1,8 +1,8 @@
-# Como carajo Instalar TensorFlow con GPU para Windows 10/11
+# Como Instalar TensorFlow con GPU para Windows 10/11
 
 Fecha última Actualización: 31 de mayo del 2023
-
-*"Una bella presentación a través de las montañas de la locura y los valles de la desesperación"*
+*Una guía en español*
+<!-- *"Una bella presentación a través de las montañas de la locura y los valles de la desesperación"* -->
 
 ----
 
@@ -49,6 +49,7 @@ Por fines pedagógicos se utilizará la versión 2.10.0 de TensorFlow con el fin
 Del link indicado se extrae la siguiente tabla:
 
 ![Tabla versiones TensorFlow y librerías necesarias](/images/tensorflow_table.png "Tabla versiones TensorFlow y librerías necesarias")
+
 *Tabla versiones TensorFlow y librerías necesarias*
 
 De la tabla observamos que para emplear TensorFlow 2.10.0 con GPU necesitamos una instalación de Python que esté entre las versiones 3.7 y 3.10, de compilador es necesario instalar visual studio community version 2019 (incluye las build tools necesarias), cUDNN 8.1 y CUDA 11.2.
@@ -82,6 +83,7 @@ Para correcta ejecución de GPU en TensorFlow es necesario primero eliminar **TO
 Ingrese al siguiente [link](https://developer.nvidia.com/cuda-toolkit-archive) y descargue la versión compatible, para nuestro caso es *CUDA Toolkit 11.2.0* (todas las versiones 11.2.x debiesen funcionar correctamente), al ingresar al link debe ver algo como esto:
 
 ![Versiones *CUDA Toolkit*](/images/CUDA_versions.png "Versiones CUDA Toolkit")
+
 *Versiones CUDA Toolkit*
 
 En esta página buscamos las versiones compatibles y luego hacemos clic en alguna de ellas y no redireccionará a otra página. Aquí elegimos el sistema operativo sobre el que trabajaremos (en nuestro caso Windows, particularmente Windows 10) y descargamos el instalado, puede ser la versión de red (más liviana) o el exe (más pesado, pero viene con todo lo necesario para la instalación), en este caso seleccionamos el exe y hacemos clic en descargar, como se puede observar en la imagen a continuación:
