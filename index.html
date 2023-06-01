@@ -15774,17 +15774,40 @@ Del link indicado se extrae la siguiente tabla:</p>
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ModuleNotFoundError</span>                       Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[1], line 1</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> import tensorflow as tf
-<span class="ansi-green-fg">      2</span> from tensorflow.python.client import device_lib
-<span class="ansi-green-fg">      5</span> print(tf.__version__)
-
-<span class="ansi-red-intense-fg ansi-bold">ModuleNotFoundError</span>: No module named &#39;tensorflow&#39;</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>2.10.0
+Num GPUs Available:  1
+</pre>
 </div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[name: &#34;/device:CPU:0&#34;
+ device_type: &#34;CPU&#34;
+ memory_limit: 268435456
+ locality {
+ }
+ incarnation: 17289828873053620691
+ xla_global_id: -1,
+ name: &#34;/device:GPU:0&#34;
+ device_type: &#34;GPU&#34;
+ memory_limit: 3643801600
+ locality {
+   bus_id: 1
+   links {
+   }
+ }
+ incarnation: 15063887881416157935
+ physical_device_desc: &#34;device: 0, name: NVIDIA GeForce RTX 3060 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6&#34;
+ xla_global_id: 416903419]</pre>
+</div>
+
 </div>
 
 </div>
